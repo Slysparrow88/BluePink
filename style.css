@@ -201,6 +201,7 @@ header{
 .imgeses i{
     width: 100%;
     font-style: normal;
+    font-weight: bold;
 }
 .listAll{
     display: flex;
@@ -210,6 +211,7 @@ header{
     font-size: 14px;
     color: white;
     font-family: Arial;
+    
 }
 li{
     color: white;
@@ -230,6 +232,53 @@ li{
 }
 .listDiscript li{
     padding: 0 0 6px 0;
+}
+.tableAll{
+    display: flex;
+    background: #373e48;
+    border-radius: 6px;
+}
+.table ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 13px;
+}
+.tableBlockOne{
+    width: 20%;
+}
+.tableBlockTwo{
+    width: 40%;
+}
+.tableBlockThree{
+    width: 40%;
+}
+.tableBlockOne li{
+    padding: 7px 0 7px 10px;
+    border-right: 1px solid #4c555e;
+    border-bottom: 1px solid #4c555e;
+}
+.tableBlockTwo li{
+    padding: 7px 0 7px 10px;
+    border-right: 1px solid #4c555e;
+    border-bottom: 1px solid #4c555e;
+}
+.tableBlockThree li{
+    padding: 7px 0 7px 10px;
+    border-bottom: 1px solid #4c555e;
+}
+.top{
+    background: #292e34;
+    border-top-left-radius: 6px;
+    border-right: 1px solid #4c555e;
+    border-bottom: 1px solid #4c555e;
+    font-weight: bold;
+}
+.top2{
+    background: #292e34;
+    border-top-right-radius: 6px;
+    border-bottom: 1px solid #4c555e;
+    font-weight: bold;
 }
 @media (max-width: 1000px) {
     .logomenu{
