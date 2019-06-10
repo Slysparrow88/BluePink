@@ -280,6 +280,54 @@ li{
     border-bottom: 1px solid #4c555e;
     font-weight: bold;
 }
+.forms h4{
+    font-size: 13px;
+    color: white;
+    font-family: Arial;
+    margin: 0;
+    font-weight: 100;
+    margin: 15px 0 3px 0;
+}
+.for{
+    width: 223px;
+    height: 29px;
+    border-radius: 3px;
+    border: 1px solid white;
+    box-shadow: inset 0 1px 1px #66707c,
+                inset 0 -1px 1px #66707c;
+}
+.forms h6{
+    margin: 0 0 0 5px;
+    font-size: 13px;
+    color: white;
+    font-family: Arial;
+    font-weight: 100;
+}
+.box1, .box2{
+    display: flex;
+    margin: 10px 0;
+}
+.box1 input, .box2 input{
+    margin: 2px 0 0 0;
+}
+.textarea textarea{
+    display: block;
+    width: 300px;
+    height: 125px;
+    border-radius: 3px;
+}
+.textarea button{
+    margin: 15px 0 0 0;
+    border-radius: 3px;
+    width: 90px;
+    height: 35px;
+    background: #b1689f;
+    border: none;
+    color: white;
+    box-shadow: 0 3px 10px 0 rgb(54, 54, 54),
+                inset 0 1px 1px white;
+                
+}
 @media (max-width: 1000px) {
     .logomenu{
         display: block;
