@@ -3,7 +3,7 @@ body{
     padding: 0;
 }
 .container{
-    padding: 0 0 20px 0;
+    padding: 0 0 5px 0;
     max-width: 1280px;
     margin: auto;
     background: #3f4752;
@@ -317,7 +317,7 @@ li{
     border-radius: 3px;
 }
 .textarea button{
-    margin: 15px 0 0 0;
+    margin: 15px 0 30px 0;
     border-radius: 3px;
     width: 90px;
     height: 35px;
@@ -325,8 +325,22 @@ li{
     border: none;
     color: white;
     box-shadow: 0 3px 10px 0 rgb(54, 54, 54),
-                inset 0 1px 1px white;
-                
+                inset 0 1px 1px white;             
+}
+footer{
+    margin: auto;
+    max-width: 1000px;
+    text-align: center;
+}
+footer h2{
+    color: white;
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: 100;
+}
+footer h2 a{
+    color: #e07dc8;
+    padding: 0 0 0 8px;
 }
 @media (max-width: 1000px) {
     .logomenu{
