@@ -185,23 +185,8 @@ header{
 .images{
     display: flex;
 }
-.imgeses{
-    width: 220px;
-    height: 105px;
+.images img{
     margin: 0 20px 0 0;
-    background: white;
-    text-align: center;
-    font-size: 18px;
-    color: #cfcfcf;
-    font-family: Arial;
-    text-transform: uppercase;
-    border: 10px solid #697689;
-    padding-top: 80px;
-}
-.imgeses i{
-    width: 100%;
-    font-style: normal;
-    font-weight: bold;
 }
 .listAll{
     display: flex;
