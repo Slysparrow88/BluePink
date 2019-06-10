@@ -29,7 +29,7 @@ header{
     text-shadow: 0 2px 2px white;
     height: 100%;
     margin: 0;
-    padding: 13px 0 0 0;
+    padding: 14px 0 0 0;
     display: flex;
     list-style: none;
     justify-content: space-around;
@@ -156,7 +156,7 @@ header{
 }
 .text h2{
     margin: 0;
-    font-size: 18px;
+    font-size: 16px;
     font-family: Arial;
     color: white;
     text-shadow: 0 1px 1px black;
@@ -352,6 +352,7 @@ footer h2 a{
     }
     .menu ul{
         display: block;
+        padding: 0;
     }
     .menu li{
         padding: 10px 0 0 0;
@@ -370,6 +371,27 @@ footer h2 a{
     }
     .osnbody{
         margin: 370px 0 0 0;
+        display: block;
     }
-
+    .osnleft{
+        width: 100%;
+        display: flex;
+    }
+    .leftbody{
+        margin: 0 20px 0 0;
+    }
+    .leftbody2{
+        margin: 0;
+    }
+    .rightbody{
+        padding: 0;
+        margin: 20px 10px 0 0;
+        width: 100%;
+    }
+    .images,.listAll{
+        justify-content: space-around;
+    }
+    .read{
+        text-align: right;
+    }
 }
