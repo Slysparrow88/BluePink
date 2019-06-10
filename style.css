@@ -100,7 +100,7 @@ header{
     font-family: Arial;
     margin: 0;
     padding: 0;
-    text-shadow: 0 2px 1px black;
+    text-shadow: 0 1px 1px black;
 }
 .leftbody li{
     border-bottom: 1px solid#7e8691;
@@ -123,7 +123,7 @@ header{
     font-size: 14px;
     padding: 16px 0 0 13px;
     font-family: Arial;
-    text-shadow: 0 2px 1px black;
+    text-shadow: 0 1px 1px black;
 }
 .leftbody2 h3{
     margin: 0;
@@ -134,7 +134,7 @@ header{
     font-weight: 100;
     font-style: italic;
     text-align: justify;
-    text-shadow: 0 2px 1px black;
+    text-shadow: 0 1px 1px black;
 }
 .leftbody2 a{
     font-size: 13px;
@@ -159,7 +159,7 @@ header{
     font-size: 18px;
     font-family: Arial;
     color: white;
-    text-shadow: 0 2px 1px black;
+    text-shadow: 0 1px 1px black;
 }
 .text h3{
     text-shadow: 0 1px 1px black;
@@ -180,14 +180,56 @@ header{
     font-size: 16px;
     font-family: Arial;
     color: white;
+    text-shadow: 0 1px 1px black;
 }
 .images{
     display: flex;
 }
-.images img{
+.imgeses{
     width: 220px;
-    height: 185px;
-    padding: 0 20px 0 0;
+    height: 105px;
+    margin: 0 20px 0 0;
+    background: white;
+    text-align: center;
+    font-size: 18px;
+    color: #cfcfcf;
+    font-family: Arial;
+    text-transform: uppercase;
+    border: 10px solid #697689;
+    padding-top: 80px;
+}
+.imgeses i{
+    width: 100%;
+    font-style: normal;
+}
+.listAll{
+    display: flex;
+}
+.h3List{
+    margin: 0;
+    font-size: 14px;
+    color: white;
+    font-family: Arial;
+}
+li{
+    color: white;
+    font-family: Arial;
+}
+.listUno, .listOrd, .listDes{
+    color: white;
+    font-family: Arial;
+    font-size: 13px;
+    text-shadow: 0 1px 1px black;
+}
+.listUno ul, .listOrd ul{
+    padding: 0 0 0 20px;
+}
+.listDes ul{
+    list-style: none;
+    padding: 0 0 0 20px;
+}
+.listDiscript li{
+    padding: 0 0 6px 0;
 }
 @media (max-width: 1000px) {
     .logomenu{
